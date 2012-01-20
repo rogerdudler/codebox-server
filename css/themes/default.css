@@ -1,0 +1,8 @@
+.highlight pre { background: #3f3f3f; color: #DDD; }
+.highlight .o, .highlight .p { color: #8f8f8f; }
+.highlight .s1 { color: #cb9392; }
+.highlight .c { color: #7f9f7b; font-style: italic; }
+.highlight .kd { color: #efddb4; }
+.highlight .n { color: #8dcfd4; }
+.highlight::selection, .highlight span::selection { background: #333333; }
+.highlight::-moz-selection, .highlight span::-moz-selection { background: #333333; }
