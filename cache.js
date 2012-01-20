@@ -1,3 +1,5 @@
+// https://github.com/ptarjan/node-cache
+
 var cache = {}
 function now() { return (new Date).getTime(); }
 var debug = false;
