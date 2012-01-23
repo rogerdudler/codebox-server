@@ -1,8 +1,8 @@
 var http = require('http');
-var pygments = require('./pygments');
 var cache = require('./cache');
+var snippet = require('./lib/snippet.js');
 var app = require('express').createServer();
-
+/*
 app.get('/s/:id?', function(req, res) {
 	var id = req.params.id;
 	res.writeHead(200, {'Content-Type': 'text/html'});
@@ -21,6 +21,16 @@ app.get('/s/:id?', function(req, res) {
 	}
 	
 });
+*/
+
+app.get('/snippet/add', function(req, res) {
+	snippet.add(req, res);
+});
+
+app.get('/snippet/:id', function(req, res) {
+	snippet.get(req, res);
+});
+
 
 function NotFound(msg){
     this.name = 'NotFound';
