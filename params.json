@@ -1,0 +1,1 @@
+{"name":"Codebox-server","tagline":"","body":"# API\r\n/snippet/create\r\n\r\n{\r\n\t\"id\": \"Hk7fH90\"\r\n}\r\n\r\n/snippet/:id/update\r\n/snippet/:id/fork\r\n/snippet/:id/like\r\n/embed/\r\n\r\n# Short URL\r\n/s/:id","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
